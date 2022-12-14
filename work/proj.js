@@ -12,8 +12,7 @@ function like(names){
  } else {
   let remain = arr-2;
   console.log(names[0],",",names[1],"and",remain," others like this");
- }
-  
+ } 
 }
 
 like(["Yaya","Paul","Mark","Peter","John"]);
