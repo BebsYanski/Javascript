@@ -9,9 +9,13 @@ console.log(age);
 age.splice(2,1,5,3)//used to manipulate middle of array
 console.log(age);
 age.slice(2,-1)
+
+//Using a forEach function to access all members of an array.
 age.forEach((age,index,ary) =>{
   console.log(age,index,ary);
 });
+
+let mulArray = names.map((name) => (name > 2 ? name * 2 : name));
 
 console.log(length);
 
