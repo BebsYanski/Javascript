@@ -15,7 +15,6 @@ age.forEach((age,index,ary) =>{
   console.log(age,index,ary);
 });
 
-let mulArray = names.map((name) => (name > 2 ? name * 2 : name));
 
 console.log(length);
 
