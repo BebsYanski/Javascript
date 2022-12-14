@@ -28,7 +28,7 @@ console.log(age);
   console.log('Hi me');
 })();
 
-//Arrow functions:
+//Arrow functions: ()=>{}
 // ES5
 var x = function(x, y) {
   return x * y;
